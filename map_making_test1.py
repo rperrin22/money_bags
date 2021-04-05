@@ -71,22 +71,6 @@ fig.grdcontour(
     pen="a0.15p"
     )    
 
-# plot data points
-#fig.plot(
-#    x=lons,
-#    y=lats, 
-#    style='c0.1i', 
-#    color='red', 
-#    pen='black', 
-#    label='something',
-#    )
-
-## Plot colorbar
-# Default is horizontal colorbar
-#fig.colorbar(
-#    frame='+l"Topography"'
-#    )
-
 
 # save figure as pdf
 fig.savefig("fm-plot8.pdf", crop=True, dpi=300)
